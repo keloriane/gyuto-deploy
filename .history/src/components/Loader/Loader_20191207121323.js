@@ -1,166 +1,17 @@
-import React, { useState, useEffect } from "react";
-import Header from "./Header/Header";
-import SideBar from "./SideBar/SideBar";
-import Slider from "./Slider/Slider";
-import { TimelineMax, Power4 } from 'gsap';
+import React, { useEffect } from 'react';
+import { TimelineMax, Power4 } from 'gsap'
+import "./loader.scss";
+const Loader = () => {
 
-import "./gallery.scss";
-
-const sliderContent = [
-    {
-        id: 1,
-        theme: "/MONASTERY",
-        title: "GYUTO MONASTERY",
-        images: [
-            `${require("./../../assets/images/image22.jpg")}`,
-            `${require("./../../assets/images/image32.jpg")}`,
-            `${require("./../../assets/images/image30.jpg")}`,
-            `${require("./../../assets/images/image29.jpg")}`,
-            `${require("./../../assets/images/image2.jpg")}`,
-            `${require("./../../assets/images/image27.jpg")}`
-        ],
-        alt: "Gyuto monastery image",
-        quote: "lorem ipsum ",
-        bgImage: `${require("./../../assets/images/image42.jpg")}`,
-        active: true
-    },
-    {
-        id: 2,
-        theme: "/MANDALA",
-        title: "/MANDALA DE TERRE",
-        images: [
-            `${require("./../../assets/images/image12.jpg")}`,
-            `${require("./../../assets/images/image16.jpg")}`,
-            `${require("./../../assets/images/image10.jpg")}`,
-            `${require("./../../assets/images/image19.jpg")}`,
-            `${require("./../../assets/images/image1.jpg")}`,
-            `${require("./../../assets/images/image17.jpg")}`
-        ],
-        alt: "Gyuto monastery image",
-        quote: "lorem ipsum ",
-        bgImage: `${require("./../../assets/images/image32.jpg")}`,
-        active: false
-    },
-    {
-        id: 3,
-        theme: "/SCHOOL",
-        title: "/GYUTO SCHOOL",
-        images: [
-            `${require("./../../assets/images/image12.jpg")}`,
-            `${require("./../../assets/images/image16.jpg")}`,
-            `${require("./../../assets/images/image10.jpg")}`,
-            `${require("./../../assets/images/image19.jpg")}`,
-            `${require("./../../assets/images/image1.jpg")}`,
-            `${require("./../../assets/images/image17.jpg")}`
-        ],
-        alt: "Gyuto monastery image",
-        quote: "lorem ipsum ",
-        bgImage: `${require("./../../assets/images/image33.jpg")}`,
-        active: false
-    },
-    {
-        id: 4,
-        theme: "/SCHOOL",
-        title: "/GYUTO SCHOOL",
-        images: [
-            `${require("./../../assets/images/image12.jpg")}`,
-            `${require("./../../assets/images/image16.jpg")}`,
-            `${require("./../../assets/images/image10.jpg")}`,
-            `${require("./../../assets/images/image19.jpg")}`,
-            `${require("./../../assets/images/image1.jpg")}`,
-            `${require("./../../assets/images/image17.jpg")}`
-        ],
-        alt: "Gyuto monastery image",
-        quote: "lorem ipsum ",
-        bgImage: `${require("./../../assets/images/image33.jpg")}`,
-        active: false
-    },
-    {
-        id: 5,
-        theme: "/SCHOOL",
-        title: "/GYUTO SCHOOL",
-        images: [
-            `${require("./../../assets/images/image12.jpg")}`,
-            `${require("./../../assets/images/image16.jpg")}`,
-            `${require("./../../assets/images/image10.jpg")}`,
-            `${require("./../../assets/images/image19.jpg")}`,
-            `${require("./../../assets/images/image1.jpg")}`,
-            `${require("./../../assets/images/image17.jpg")}`
-        ],
-        alt: "Gyuto monastery image",
-        quote: "lorem ipsum ",
-        bgImage: `${require("./../../assets/images/image33.jpg")}`,
-        active: false
-    },
-];
-
-export default function Gallery() {
-    const [currentIndex, setCurrentIndex] = useState(0);
     useEffect(() => {
+
         const letter = document.querySelectorAll('.letter')
-        const loadedAnimation = new TimelineMax();
-        loadedAnimation
+        const loaderAnimation = new TimelineMax();
+        loaderAnimation
             .staggerFrom(letter, 1, { y: "100%", yoyo: true, ease: Power4.easeOut }, "0.1")
             .staggerTo(letter, 0.2, { opacity: 0 }, "0.1")
-            .to(".main-loader", 1, { width: 0 })
-            .from(".information--navigation", 0.6, { opacity: 0, x: "-100%" })
-            .from([".logo-icon", ".head-title-slider"], 0.5, {
-                opacity: 0,
-                x: "-100%",
-                delay: -0.6
-            })
-            .from(".gallery-container", 1.1, {
-                x: "-100%",
-                opacity: 0,
-                delay: -1
-            })
-            // .from(imageList.children, 0.7, {
-
-            //   x: "-100%",
-            //   ease: Power4.easeOut
-            // })
-            .from(".gallery-text", 1, { opacity: 0, delay: -0.8 })
-            .from(".text-letter", 1, { opacity: 0, delay: -0.9 })
-            .to("#main-img", 50, {
-                x: -25,
-                y: 75,
-                rotationZ: 0.01,
-                scale: 1.3,
-                delay: -1
-            });
-
-
-
-
-    })
-    const handleClick = index => {
-        setCurrentIndex(index);
-    };
-
-    const gallery = sliderContent.map((slide, index) => {
-        if (index === currentIndex) {
-            return (
-                <>
-
-                    <div id="gallery">
-                        <div id="main-img" style={{ backgroundImage: `url(${slide.bgImage})` }}>
-
-                        </div>
-                        <div id="main" className="monstery">
-                            <Header title={slide.theme} id={slide.id} />
-                            <div id="main-gallery">
-                                <SideBar click={handleClick} />
-                                <Slider slide={slide} />
-                            </div>
-                        </div>
-                    </div>
-                </>
-            );
-        } else return null;
-
-    });
-
-    return <>
+    }, [])
+    return (
         <div className="main-loader">
             <svg className="logo-gyuto-loader" viewBox="0 0 125 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path className="letter" d="M19.3504 20.514L26.4211 20.6505C27.8058 20.6505 29.161 20.5292 30.4867 20.2865C30.6047 20.5898 30.6635 20.8477 30.6635 21.06L30.5751 21.606C29.4557 22.0913 28.837 23.0772 28.7191 24.5635C28.5129 26.6262 28.4097 29.5382 28.4097 33.2995C26.642 33.2995 24.5946 33.527 22.267 33.982C19.9396 34.4673 18.0836 34.71 16.6989 34.71C11.6316 34.71 7.62484 33.0872 4.6787 29.8415C1.76204 26.5655 0.303711 22.4553 0.303711 17.511C0.303711 12.5363 1.89461 8.42618 5.07643 5.18051C8.25825 1.93484 12.3239 0.312012 17.2734 0.312012C21.2802 0.312012 24.8302 0.751846 27.9236 1.63151C28.1299 1.69218 28.233 1.79834 28.233 1.95001C28.233 2.10168 28.2183 2.29884 28.1888 2.54151C28.1888 2.78418 28.1593 3.13301 28.1004 3.58801C28.071 4.01268 28.0415 4.49801 28.012 5.04401C27.9532 6.19668 27.9236 7.71334 27.9236 9.59401C27.7174 9.71535 27.4375 9.77601 27.084 9.77601C26.7304 9.77601 26.4506 9.73051 26.2443 9.63951C25.714 7.18251 25.3311 5.65068 25.0953 5.04401C22.7679 2.98134 19.9396 1.95001 16.6105 1.95001C13.3109 1.95001 10.5562 3.16334 8.34665 5.59001C6.16651 8.01668 5.07643 11.3382 5.07643 15.5545C5.07643 18.5272 5.54782 21.3178 6.49057 23.9265C7.46281 26.5352 8.89167 28.6888 10.7772 30.3875C12.6922 32.0558 14.9018 32.89 17.4059 32.89C19.9396 32.89 22.3554 32.344 24.6534 31.252V28.4765C24.6534 26.2015 24.565 24.1388 24.3883 22.2885C22.8857 22.1065 21.2064 22.0155 19.3504 22.0155C19.2326 21.8032 19.1736 21.5605 19.1736 21.2875L19.3504 20.514Z" fill="white" />
@@ -170,6 +21,6 @@ export default function Gallery() {
                 <path className="letter" d="M124.362 22.698C124.362 29.432 120.561 33.436 112.96 34.71C109.837 34.71 107.201 33.5725 105.05 31.2975C102.929 28.9922 101.868 26.1257 101.868 22.698C101.868 15.9032 105.683 11.8841 113.314 10.6404C116.407 10.6404 119.015 11.8083 121.136 14.144C123.287 16.4797 124.362 19.331 124.362 22.698ZM113.933 32.7535C118.175 32.7535 120.296 29.9627 120.296 24.3815C120.296 21.2267 119.589 18.4665 118.175 16.1005C116.761 13.7345 114.89 12.5514 112.563 12.5514C110.235 12.5514 108.541 13.325 107.481 14.872C106.449 16.3887 105.934 18.5727 105.934 21.424C105.934 24.245 106.656 26.8385 108.099 29.2045C109.543 31.5705 111.487 32.7535 113.933 32.7535ZM108.055 6.90944C107.083 6.18144 106.332 5.18044 105.801 3.90644C106.155 3.48178 106.626 3.04194 107.215 2.58694C107.834 2.10161 108.364 1.76794 108.806 1.58594C109.926 2.43528 110.662 3.45144 111.016 4.63444C110.103 5.75677 109.116 6.51511 108.055 6.90944ZM117.601 6.90944C116.628 6.18144 115.877 5.18044 115.347 3.90644C115.7 3.48178 116.172 3.04194 116.761 2.58694C117.38 2.10161 117.91 1.76794 118.352 1.58594C119.471 2.43528 120.208 3.45144 120.561 4.63444C119.648 5.75677 118.661 6.51511 117.601 6.90944Z" fill="white" />
             </svg>
         </div>
-        {gallery}
-    </>;
+    )
 }
+export default Loader;

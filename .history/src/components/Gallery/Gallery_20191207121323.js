@@ -157,7 +157,6 @@ export default function Gallery() {
                 </>
             );
         } else return null;
-
     });
 
     return <>

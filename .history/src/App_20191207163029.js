@@ -10,8 +10,8 @@ import Nav from "./components/Nav/Nav";
 function App() {
   return (
     <div className="App" id="App">
-      <Loader />
       <Cursor />
+      <Loader />
       <Nav />
       <HashRouter basename="/">
         <Switch>
