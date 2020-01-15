@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 import Info from "../Info/Info";
 import Gallery from "../Gallery/Gallery";
-import Music from '../Music/Music';
 
 
 const Nav = () => {
@@ -11,7 +10,6 @@ const Nav = () => {
             <Router>
                 <Link to={Gallery()}>Gallery</Link>
                 <Link to={Info()}>Info</Link>
-                <Link to={Music()}>Music</Link>
 
             </Router>
         </div>

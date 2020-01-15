@@ -19,8 +19,8 @@ function App() {
           <Route exact path="/info" component={Info} />
           <Route path="/slider" component={Gallery} />
           <Route path="/loader" component={Loader} />
-          <Route path="/music" component={Music} />
           <Route path="/" component={Mandala} />
+          <Route path="/music" component={Music} />
         </Switch>
       </HashRouter>
     </div>

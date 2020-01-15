@@ -9,7 +9,7 @@ const Nav = () => {
     return (
         <div className="nav--container">
             <Router>
-                <Link to={Gallery()}>Gallery</Link>
+                <Link to="/slider">Gallery</Link>
                 <Link to={Info()}>Info</Link>
                 <Link to={Music()}>Music</Link>
 

@@ -1,14 +1,11 @@
 import React from "react";
-import Mandala from "./old/Mandala/Mandala";
+import Mandala from "./assets/images/mandala.svg";
 
 const Home = () => {
   return (
     <div id="background">
       <div id="container">
-       <Mandala />
-      </div>
-      <div className="video-container">
-
+        <img src={Mandala} alt="" />
       </div>
     </div>
   );

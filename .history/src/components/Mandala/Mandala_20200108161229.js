@@ -7,12 +7,18 @@ import Element from './Element'
 import "./_mandala.scss"
 import Vimeo from 'react-vimeo';
 const Mandala = (props) => {
+
     const coordClick = () => {
 
     }
+
+
+
+
+
+
     return (
         <div className="bgc">
-            <Vimeo videoId={ 279065288 } autoplay={true} />
             <Element />
         </div>
     )

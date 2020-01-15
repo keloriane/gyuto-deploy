@@ -126,9 +126,7 @@ function Info() {
                             </div>
                         </div>
                     </div>
-                    <div className="info-image-container image-background" style={{ backgroundImage: `url(${sliderContent[0].bgImage})` }} >
 
-                    </div>
                 </div>
                 <div className="navigation-pattern">
                     <svg width="1500" height="65" viewBox="0 0 1500 65" fill="none" xmlns="http://www.w3.org/2000/svg">

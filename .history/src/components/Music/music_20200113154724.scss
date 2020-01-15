@@ -1,0 +1,41 @@
+.album-container{
+    color: white;
+    width: 100%;
+    max-width: 850px;
+    display: flex;
+    .yellow-album{
+        width:242px;
+        height: 280px;
+        background-color: #FFF700;
+    }
+    .inof-album{
+    
+        li.active{
+            color: #fff700;
+        }
+        li{
+            
+            font-family: Rosarivo;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 24px;
+            color: #FFFFFF;
+
+
+        }
+    }
+    .dark-album{
+        width:242px;
+        height: 280px;
+        background-color: #white;
+    }
+}
+
+
+.music-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}

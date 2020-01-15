@@ -1,0 +1,56 @@
+.album-container{
+    color: white;
+    width: 100%;
+    max-width: 850px;
+    display: flex;
+    .yellow-album{
+        width:242px;
+        height: 280px;
+        background-color: #FFF700;
+    }
+    .info-album{
+        width: 349px;
+        height: 287px;
+        padding: 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        ol{
+            min-width: 140px;
+        }
+        li.active{
+            color: #fff700;
+        }
+      
+    }
+    .dark-album{
+        width:242px;
+        height: 280px;
+        background-color: white;
+    }
+}
+
+.line{
+    width: 400px;
+    height: 1px;
+    background-color: #fff700;
+
+}
+.music-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.list-items-song{
+    font-family: "Old Standard TT";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+
+
+}

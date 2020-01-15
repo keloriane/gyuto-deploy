@@ -111,23 +111,24 @@ function Info() {
                             <div className="info-text-container">
                                 <p className="text-info-page">In the 14th century, by meditating a long time on good and evil, our grand Lama Tsongkhapa reached a high level of knowledge. During his long meditation he was accompanied by various Dharma protectors, such as Mahakala, the protector deity of Gyütö. The sound of the Dharma protectors sometimes resembles that of a mountain cracking, sometimes that of ocean waves. Tsongkhapa heard those sounds and they became the sacred foundation of his teaching. Here in Gyütö, our sound tradition is that of waves crashing in the ocean.’
 
-        </p>
+            </p>
                                 <p className="text-info-page">Perched high in the Indian Himalayas, the Tibetan Monastery of Gyütö is a university recognized by tantric Buddhism where 400 monks live. Tibetan Buddhist monasteries have been forbidden in China; some of them have been reestablished elsewhere, such as Gyütö, in India. The monastery is near Dharamsala, nerve center of the Tibetan Government in exile and of the Dalai Lama’s monastery. Gyütö lives to the rhythm of the Tibetan calendar and of its rich rites of a 500 year-old history.
-      </p>
+          </p>
                                 <p className="text-info-page" >In Gyütö, the deep chanting from the rituals goes on late into the night and echoes in the corridors of the buildings adjoining the temple, lulling the monk's sleep. Before dawn, the sutras Buddha's teaching echo already in these same corridors, greeting the souls returning from the land of dreams. We are immersed in this sonorous reality of the monastery, which runs through all the movies.
-      </p>
+          </p>
                                 <p className="text-info-page">In the 14th century, by meditating a long time on good and evil, our grand Lama Tsongkhapa reached a high level of knowledge. During his long meditation he was accompanied by various Dharma protectors, such as Mahakala, the protector deity of Gyütö. The sound of the Dharma protectors sometimes resembles that of a mountain cracking, sometimes that of ocean waves. Tsongkhapa heard those sounds and they became the sacred foundation of his teaching. Here in Gyütö, our sound tradition is that of waves crashing in the ocean.’
 
-      </p>
+          </p>
                                 <p className="text-info-page">Perched high in the Indian Himalayas, the Tibetan Monastery of Gyütö is a university recognized by tantric Buddhism where 400 monks live. Tibetan Buddhist monasteries have been forbidden in China; some of them have been reestablished elsewhere, such as Gyütö, in India. The monastery is near Dharamsala, nerve center of the Tibetan Government in exile and of the Dalai Lama’s monastery. Gyütö lives to the rhythm of the Tibetan calendar and of its rich rites of a 500 year-old history.
-      </p>
+          </p>
                                 <p className="text-info-page" >In Gyütö, the deep chanting from the rituals goes on late into the night and echoes in the corridors of the buildings adjoining the temple, lulling the monk's sleep. Before dawn, the sutras Buddha's teaching echo already in these same corridors, greeting the souls returning from the land of dreams. We are immersed in this sonorous reality of the monastery, which runs through all the movies.
-      </p>
+          </p>
                             </div>
                         </div>
-                    </div>
-                    <div className="info-image-container image-background" style={{ backgroundImage: `url(${sliderContent[0].bgImage})` }} >
 
+                    </div>
+
+                    <div className="info-image-container image-background" style={{ backgroundImage: `url(${sliderContent[0].bgImage})` }} >
                     </div>
                 </div>
                 <div className="navigation-pattern">
