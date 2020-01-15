@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e1f58ffb768a5588a4c4295bc0214ad5",
+    "revision": "2fcab1f917aedb4cbdc1e6adacfe6238",
     "url": "/gyuto-deploy/index.html"
   },
   {
-    "revision": "a15744f77239c41e98eb",
-    "url": "/gyuto-deploy/static/css/main.cbda4d14.chunk.css"
+    "revision": "a274e67eeec0224dc892",
+    "url": "/gyuto-deploy/static/css/main.74750794.chunk.css"
   },
   {
-    "revision": "cad115844035f38192c1",
-    "url": "/gyuto-deploy/static/js/2.23c0c474.chunk.js"
+    "revision": "13202cf0372c20fc7c5b",
+    "url": "/gyuto-deploy/static/js/2.051f0d5e.chunk.js"
   },
   {
     "revision": "8c3e6192bc2c409b519a8d0daffa18f7",
-    "url": "/gyuto-deploy/static/js/2.23c0c474.chunk.js.LICENSE"
+    "url": "/gyuto-deploy/static/js/2.051f0d5e.chunk.js.LICENSE"
   },
   {
-    "revision": "a15744f77239c41e98eb",
-    "url": "/gyuto-deploy/static/js/main.52c98f1e.chunk.js"
+    "revision": "a274e67eeec0224dc892",
+    "url": "/gyuto-deploy/static/js/main.dddb4e13.chunk.js"
   },
   {
-    "revision": "9d7aa0831f219312012a",
-    "url": "/gyuto-deploy/static/js/runtime-main.3096436e.js"
+    "revision": "cb4848781adf6e43c43d",
+    "url": "/gyuto-deploy/static/js/runtime-main.b4a184c4.js"
+  },
+  {
+    "revision": "727edd7e1d80a58b7a544f1b8c10ea3a",
+    "url": "/gyuto-deploy/static/media/cover-tantric-college1.727edd7e.png"
   },
   {
     "revision": "d2f2aa2c955b37677890cbfe52ce0ecc",
@@ -88,8 +92,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gyuto-deploy/static/media/image33.f2a9d46d.jpg"
   },
   {
+    "revision": "13154ae9ede9cc654a5b64232b7fb687",
+    "url": "/gyuto-deploy/static/media/image4.13154ae9.jpg"
+  },
+  {
     "revision": "6c9bfb72fbbc2e37f5367031a731ff91",
     "url": "/gyuto-deploy/static/media/image42.6c9bfb72.jpg"
+  },
+  {
+    "revision": "b34671e43eacc0fbc78271c5e65e4c84",
+    "url": "/gyuto-deploy/static/media/kailash1.b34671e4.png"
   },
   {
     "revision": "65af1358975ee60b27a0bc73626b2ba4",

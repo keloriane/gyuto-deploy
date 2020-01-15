@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/gyuto-deploy/static/css/main.cbda4d14.chunk.css",
-    "main.js": "/gyuto-deploy/static/js/main.52c98f1e.chunk.js",
-    "main.js.map": "/gyuto-deploy/static/js/main.52c98f1e.chunk.js.map",
-    "runtime-main.js": "/gyuto-deploy/static/js/runtime-main.3096436e.js",
-    "runtime-main.js.map": "/gyuto-deploy/static/js/runtime-main.3096436e.js.map",
-    "static/js/2.23c0c474.chunk.js": "/gyuto-deploy/static/js/2.23c0c474.chunk.js",
-    "static/js/2.23c0c474.chunk.js.map": "/gyuto-deploy/static/js/2.23c0c474.chunk.js.map",
+    "main.css": "/gyuto-deploy/static/css/main.74750794.chunk.css",
+    "main.js": "/gyuto-deploy/static/js/main.dddb4e13.chunk.js",
+    "main.js.map": "/gyuto-deploy/static/js/main.dddb4e13.chunk.js.map",
+    "runtime-main.js": "/gyuto-deploy/static/js/runtime-main.b4a184c4.js",
+    "runtime-main.js.map": "/gyuto-deploy/static/js/runtime-main.b4a184c4.js.map",
+    "static/js/2.051f0d5e.chunk.js": "/gyuto-deploy/static/js/2.051f0d5e.chunk.js",
+    "static/js/2.051f0d5e.chunk.js.map": "/gyuto-deploy/static/js/2.051f0d5e.chunk.js.map",
     "index.html": "/gyuto-deploy/index.html",
-    "precache-manifest.0bfc08fcaba4cb1a5766994b2a09c31c.js": "/gyuto-deploy/precache-manifest.0bfc08fcaba4cb1a5766994b2a09c31c.js",
+    "precache-manifest.728936b604f11dd96eeb9bce0defec61.js": "/gyuto-deploy/precache-manifest.728936b604f11dd96eeb9bce0defec61.js",
     "service-worker.js": "/gyuto-deploy/service-worker.js",
-    "static/css/main.cbda4d14.chunk.css.map": "/gyuto-deploy/static/css/main.cbda4d14.chunk.css.map",
-    "static/js/2.23c0c474.chunk.js.LICENSE": "/gyuto-deploy/static/js/2.23c0c474.chunk.js.LICENSE",
+    "static/css/main.74750794.chunk.css.map": "/gyuto-deploy/static/css/main.74750794.chunk.css.map",
+    "static/js/2.051f0d5e.chunk.js.LICENSE": "/gyuto-deploy/static/js/2.051f0d5e.chunk.js.LICENSE",
+    "static/media/cover-tantric-college1.png": "/gyuto-deploy/static/media/cover-tantric-college1.727edd7e.png",
     "static/media/gyuto.svg": "/gyuto-deploy/static/media/gyuto.d2f2aa2c.svg",
     "static/media/image1.jpg": "/gyuto-deploy/static/media/image1.1106b46b.jpg",
     "static/media/image10.jpg": "/gyuto-deploy/static/media/image10.38afd55f.jpg",
@@ -28,16 +29,18 @@
     "static/media/image30.jpg": "/gyuto-deploy/static/media/image30.bd23a87d.jpg",
     "static/media/image32.jpg": "/gyuto-deploy/static/media/image32.5ed63fe9.jpg",
     "static/media/image33.jpg": "/gyuto-deploy/static/media/image33.f2a9d46d.jpg",
+    "static/media/music.scss": "/gyuto-deploy/static/media/image4.13154ae9.jpg",
     "static/media/image42.jpg": "/gyuto-deploy/static/media/image42.6c9bfb72.jpg",
+    "static/media/kailash1.png": "/gyuto-deploy/static/media/kailash1.b34671e4.png",
     "static/media/leftArrow.svg": "/gyuto-deploy/static/media/leftArrow.65af1358.svg",
     "static/media/mandala.svg": "/gyuto-deploy/static/media/mandala.5efa145f.svg",
     "static/media/rightArrow.svg": "/gyuto-deploy/static/media/rightArrow.fc4decb3.svg",
     "static/media/info.scss": "/gyuto-deploy/static/media/tcrcbyn1.9ed617ab.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.3096436e.js",
-    "static/js/2.23c0c474.chunk.js",
-    "static/css/main.cbda4d14.chunk.css",
-    "static/js/main.52c98f1e.chunk.js"
+    "static/js/runtime-main.b4a184c4.js",
+    "static/js/2.051f0d5e.chunk.js",
+    "static/css/main.74750794.chunk.css",
+    "static/js/main.dddb4e13.chunk.js"
   ]
 }
