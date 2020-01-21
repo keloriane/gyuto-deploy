@@ -1,0 +1,19 @@
+.nav--container{
+    width:100%;
+    height: 76px;
+    background: rgba(46, 42, 43, 0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    .nav-items{
+        font-family: Rosario;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+    }
+
+}

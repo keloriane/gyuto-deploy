@@ -1,0 +1,53 @@
+{
+  "name": "gyuto.github.io",
+  "version": "0.1.0",
+  "homepage": "https://keloriane.github.io/gyuto-deploy",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@u-wave/react-vimeo": "^0.5.0",
+    "file-loader": "^5.0.2",
+    "gh-pages": "^2.1.1",
+    "global": "^4.4.0",
+    "gsap": "^3.0.2",
+    "i18next": "^13.0.0",
+    "i18next-browser-languagedetector": "^2.2.4",
+    "node-sass": "^4.13.0",
+    "i18next": "^13.0.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-flexbox-grid": "^2.1.2",
+    "react-helmet": "^5.2.1",
+    "react-media": "^1.8.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.3.0",
+    "react-transition-group": "^4.3.0",
+    "react-vimeo": "^2.0.0",
+    "rodal": "^1.6.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
