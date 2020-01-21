@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1ccbc13d9113882db0ebc2940e292a53",
+    "revision": "a5e963abb55c14478899475301ad9665",
     "url": "/gyuto-deploy/index.html"
   },
   {
-    "revision": "f0d8344be877afb9e99d",
-    "url": "/gyuto-deploy/static/css/main.8776bd06.chunk.css"
+    "revision": "0554d5f46bb5a1d285fe",
+    "url": "/gyuto-deploy/static/css/2.e518d95d.chunk.css"
   },
   {
-    "revision": "13202cf0372c20fc7c5b",
-    "url": "/gyuto-deploy/static/js/2.051f0d5e.chunk.js"
+    "revision": "c2c9f3b5b13479291c23",
+    "url": "/gyuto-deploy/static/css/main.0c39b702.chunk.css"
   },
   {
-    "revision": "8c3e6192bc2c409b519a8d0daffa18f7",
-    "url": "/gyuto-deploy/static/js/2.051f0d5e.chunk.js.LICENSE"
+    "revision": "0554d5f46bb5a1d285fe",
+    "url": "/gyuto-deploy/static/js/2.36d97006.chunk.js"
   },
   {
-    "revision": "f0d8344be877afb9e99d",
-    "url": "/gyuto-deploy/static/js/main.dddb4e13.chunk.js"
+    "revision": "d4c090b371608482c8f59725b7efb1cd",
+    "url": "/gyuto-deploy/static/js/2.36d97006.chunk.js.LICENSE"
   },
   {
-    "revision": "cb4848781adf6e43c43d",
-    "url": "/gyuto-deploy/static/js/runtime-main.b4a184c4.js"
+    "revision": "c2c9f3b5b13479291c23",
+    "url": "/gyuto-deploy/static/js/main.bceb34fc.chunk.js"
+  },
+  {
+    "revision": "f339901a945651ba7d58",
+    "url": "/gyuto-deploy/static/js/runtime-main.b03d287a.js"
   },
   {
     "revision": "727edd7e1d80a58b7a544f1b8c10ea3a",
@@ -106,10 +110,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "65af1358975ee60b27a0bc73626b2ba4",
     "url": "/gyuto-deploy/static/media/leftArrow.65af1358.svg"
-  },
-  {
-    "revision": "5efa145f34d278afc6df81e9688ca194",
-    "url": "/gyuto-deploy/static/media/mandala.5efa145f.svg"
   },
   {
     "revision": "fc4decb36f0865cdf3ad4756427bc8c7",

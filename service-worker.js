@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/gyuto-deploy/precache-manifest.0e6422a59950db884239c248dfbe5720.js"
+  "/gyuto-deploy/precache-manifest.351876df2c670672003e153dc784f8fa.js"
 );
 
 self.addEventListener('message', (event) => {
