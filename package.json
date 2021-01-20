@@ -11,7 +11,7 @@
     "file-loader": "^5.0.2",
     "gh-pages": "^2.1.1",
     "global": "^4.4.0",
-    "gsap": "^3.0.2",
+    "gsap": "^3.6.0",
     "i18next-browser-languagedetector": "^2.2.4",
     "node-sass": "^4.13.0",
     "i18next": "^13.0.0",
