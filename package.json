@@ -13,7 +13,7 @@
     "global": "^4.4.0",
     "gsap": "^3.0.2",
     "i18next-browser-languagedetector": "^2.2.4",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "i18next": "^13.0.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
